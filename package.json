@@ -1,0 +1,39 @@
+{
+  "name": "mean-quickstart",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/borisyue1/<repo-name>.git"
+  },
+  "author": "Boris Yue",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/borisyue1/<repo-name>/issues"
+  },
+  "engines": {
+    "node": "6.9.1"
+  },
+  "homepage": "https://github.com/borisyue1/<repo-name>#readme",
+  "dependencies": {
+    "body-parser": "^1.16.0",
+    "connect-flash": "^0.1.1",
+    "ejs": "^2.5.5",
+    "express": "^4.14.1",
+    "express-session": "^1.15.0",
+    "mongoose": "^4.7.9",
+    "passport": "^0.3.2",
+    "passport-facebook": "^2.1.1",
+    "passport-local": "^1.0.0",
+    "passport-local-mongoose": "^4.0.0",
+    "passport-twitter": "^1.0.4"
+  },
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  }
+}
